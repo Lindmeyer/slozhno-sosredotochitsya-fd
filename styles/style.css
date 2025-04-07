@@ -109,6 +109,12 @@
   line-height: inherit;
 }
 
+.header .page-title {
+   margin-top: -5px;
+   margin-left: 5px;
+}
+
+
 .title-decor {
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
@@ -160,6 +166,7 @@
 
 .header {
   align-items: start;
+
 }
 
 .header__theme-menu {
@@ -171,7 +178,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-top: 20px;
+  margin-top: 10px;
+  outline: 1px solid green;
+  margin-right: 10px;
 }
 
 .header__theme-menu-button {
@@ -209,6 +218,8 @@
   font-size: inherit;
   line-height: inherit;
   background: var(--accent-color, #ff0070);
+  margin-right: 15px;
+  
 }
 
 /* #endregion Конец блока header */
@@ -301,6 +312,9 @@
   .header__title {
     justify-self: end;
     inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
+    margin-right: 20px;
+    margin-top: 0;
+    
   }
 
   .main {
@@ -317,6 +331,7 @@
   .section {
     column-gap: 30px;
   }
+
 
   .header {
     min-height: 768px;
@@ -342,3 +357,4 @@
     flex-direction: row;
   }
 }
+
