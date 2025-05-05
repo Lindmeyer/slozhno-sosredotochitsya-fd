@@ -257,6 +257,9 @@
     inset-block-start: 20px;
   }
 
+  .page-title {
+    margin-left: -20px
+  }
 
   .section {
     grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
@@ -293,7 +296,7 @@
   .header {
     padding-inline-start: 0;
     min-height: 1024px;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px 20px;
     display: grid;
   }
 
